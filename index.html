@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body >
+    <div class="mainContainer pt-5 px-5 md:pt-45px md:px-106px ">
+        <header>
+            <nav>
+                <div class="h-60px md:flex md:justify-between md:items-center">
+                    <div class=" flex justify-between items-center" >
+                        <img src="images/logo.png" alt="" class=" w-20 xl:w-177px ">
+                        <div class="md:hidden block cursor-pointer text-3xl ">
+                            <i class='bx bx-menu ' onclick="{openMenu(this)}" ></i>
+                        </div>
+                    </div>
+                    <ul class="md:flex md:gap-10 my-2 md:my-0 opacity-0  md:opacity-100  transition-all duration-500 ease-out">
+                        <li class="font-semibold xl:text-22px text-link-900 my-2 md:my-0">Home</li>
+                        <li class="font-semibold xl:text-22px text-link-500 my-2 md:my-0">Services</li>
+                        <li class="font-semibold xl:text-22px text-link-500 my-2 md:my-0">Contact</li>
+                        <li class="font-semibold xl:text-22px text-link-500 my-2 md:my-0">Support</li>
+                    </ul>
+                        <button
+                        class="btn bg-black text-white h-7 w-20 xl:h-60px xl:w-177px  rounded-md font-semibold xl:text-xl opacity-0 md:opacity-100">Sign
+                        Up</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="xl:mt-133px md:mt-12  ">
+                <div class="xl:grid xl:grid-cols-3 gap-5">
+                    <div class="info col-span-2">
+                        
+                        <p class="text-3xl md:text-6xl xl:text-8xl text-link-900 font-500">Interior Design</p>
+                        <p class="xl:w-700px text-link-500 xl:text-2xl my-4 md:my-7 xl:mt-10">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
+                            modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
+                    </div>
+                    <div class="square xl:col-span-1">
+                        <img src="images/image1.png" alt="">
+                    </div>
+                </div>
+                <div class="xl:mt-20 xl:grid xl:grid-cols-2  gap-5">
+                    <div class="my-20 xl:my-0" >
+                        <button class="bg-link-900 xl:w-302px xl:h-86px py-3 px-4 md:p-0 my-5 md:my-0 rounded-sm text-white">Start Project</button>
+                        <div class="flex justify-between  xl:mt-28">
+                            <div>
+                                <p class="xl:text-6xl text-link-500">400+</p>
+                                <p class="text-link-500 xl:text-xl pt-2">Project Complete</p>
+                            </div>
+                            <div>
+                                <p class="xl:text-6xl text-link-500">600+</p>
+                                <p class="text-link-500 xl:text-xl pt-2">Satisfied Clients</p>
+                            </div>
+                            <div>
+                                <p class="xl:text-6xl text-link-500">100+</p>
+                                <p class="text-link-500 xl:text-xl pt-2">Unique Styles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative  mt-14 xl:mt-0">
+                        <div class="black-square absolute  border-link-900 border-2 w-40 h-36 top-[-20px] z-[-1]">
+                        </div>
+                        <img src="images/image2.png" alt="" class="xl:absolute w-10/12 ml-5">
+                        <div class="solid-square absolute w-2/12 h-10 md:w-24 md:h-24 bg-link-900 right-0 bottom-0  text-center"  >
+                            <i class="fa-solid fa-arrow-down-long text-white md:text-5xl" style="padding-top: 20%;" ></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <section>
+            <div class="xl:my-16">
+                <h2 class="flex items-center py-10 md:py-20">
+                    <span class="block  w-12 md:w-24 h-1 bg-link-900  mt-3"></span>
+                    <span class="text-link-900 ml-5 font-semibold  text-2xl md:text-5xl">Our Services</span>
+                </h2>
+                <div class="md:grid xl:grid-cols-3 md:grid-cols-2 gap-7">
+                    <div class="flex my-5 xl:my-0">
+                        <img src="images/image3.png" alt="" class="w-16 h-16">
+                        <div class="ml-5">
+                            <h3 class="text-link-900 text-2xl font-semibold">Lighting Design</h3>
+                            <p class="text-link-500 my-5">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
+                        </div>
+                    </div>
+                    <div class="flex my-5 xl:my-0">
+                        <img src="images/image4.png" alt="" class="w-16 h-16">
+                        <div class="ml-5">
+                            <h3 class="text-link-900 text-2xl font-semibold">Interior Design</h3>
+                            <p class="text-link-500 my-5">From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
+                        </div>
+                    </div>
+                    <div class="flex my-5 xl:my-0">
+                        <img src="images/image5.png" alt="" class="w-16 h-16">
+                        <div class="ml-5">
+                            <h3 class="text-link-900 text-2xl font-semibold">Outdoor Design</h3>
+                            <p class="text-link-500 my-5">Celebrate the changing seasons with our seasonal outdoor decor services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid md:grid-cols-2 xl:gap-20 gap-10 xl:my-40">
+                <div>
+                    <img src="images/image6.png" alt="">
+                </div>
+                <div>
+                    <h2 class=" text-xl xl:text-5xl text-link-900 font-semibold">Designing Your Dream With Brilliance</h2>
+                    <p class="xl:my-10 my-5 text-link-500  text-14px xl:text-xl ">Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
+                    <div class="flex justify-between items-center border-b border-gray pb-2 xl:pb-5 my-4 xl:my-8">
+                        <p class="text-link-900 font-semibold text-14px xl:text-xl">Living Room Interior Design</p>
+                        <i class="fa-solid fa-plus text-link-900 font-semibold text-14px xl:text-xl"></i>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-gray pb-2 xl:pb-5  my-4 xl:my-8">
+                        <p class="text-link-900 font-semibold text-14px xl:text-xl">Commercial Office Room Interior Design</p>
+                        <i class="fa-solid fa-plus text-link-900 font-semibold text-14px xl:text-xl"></i>
+                    </div>
+                    <button class="w-32 xl:w-64 h-9  xl:h-20 bg-link-900 text-white xl:text-xl">Learn More</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid md:grid-cols-2 xl:gap-20 gap-10 my-20 xl:my-40">
+                <div>
+                    <h2 class="text-link-900 text-2xl xl:text-5xl font-semibold">Designing Your Dream in Three Simple Steps</h2>
+                    <div class="mt-10">
+                        <div class="flex">
+                            <div>
+                                <img src="images/image7.png" alt="" class="w-32">
+                                <span class="w-0.5 h-24 bg-lightgray block ml-7 mt-5"></span>
+                            </div>
+                            <div class="ml-10">
+                                <h2 class=" text-xl xl:text-3xl text-link-900 font-bold">Start Project</h2>
+                                <p class="text-14px  xl:text-xl text-link-500 font-500 my-5">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:my-5">
+                        <div class="flex">
+                            <div>
+                                <img src="images/image8.png" alt="" class="w-32">
+                                <span class="w-0.5 h-24 bg-lightgray block ml-7 mt-5"></span>
+                            </div>
+                            <div class="ml-10">
+                                <h2 class="text-xl xl:text-3xl text-link-900 font-bold">Craft</h2>
+                                <p class="text-14px  xl:text-xl text-link-500 font-500 my-5">Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="flex">
+                            <div>
+                                <img src="images/image9.png" alt="" class="w-32">
+                             
+                            </div>
+                            <div class="ml-10">
+                                <h2 class="text-xl xl:text-3xl text-link-900 font-bold">Execute</h2>
+                                <p class="text-14px  xl:text-xl text-link-500 font-500 my-5">Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/image10.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="xl:grid xl:grid-cols-2 gap-20">
+                <div class="hidden xl:block">
+                    <img src="images/image11.png" alt="" >
+                    <div class="arrows flex mt-5">
+                            <img src="images/arrow1.png" alt="" class="w-14 ">
+                            <img src="images/arrow2.png" alt="" class="w-14 ml-5">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="font-semibold text-2xl md:text-5xl text-link-900"> What Our Customers Say About Us</h2>
+                    <div class="mt-7 md:mt-20 relative">
+                        <div class="md:w-10/12  bg-link-900 p-2 md:p-10 xl:absolute -left-3/4 py-4 md:py-12">
+                            <img src="images/quote.png" alt="" class="w-1/12 md:w-2/12">
+                            <p class="text-white py-10 font-500 text-sm md:text-xl">Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations.  Thank you for making my home beautiful!</p>
+                            <div class="flex">
+                                <img src="images/person1.png" alt="" class="w-14">
+                                <div class="ml-5">
+                                    <p class="font-semibold text-white mb-1 text-sm md:text-xl">Sophie Carter</p>
+                                    <p class="text-gray100 ">New York, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-10/12  bg-link-900 p-2 md:p-10 xl:absolute right-0 py-4 md:py-12 my-5 xl:my-0">
+                            <img src="images/quote.png" alt="" class="w-1/12 md:w-2/12">
+                            <p class="text-white py-10 font-500 text-sm md:text-xl">Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!</p>
+                            <div class="flex">
+                                <img src="images/person2.png" alt="" class="w-14">
+                                <div class="ml-5">
+                                    <p class="font-semibold text-white mb-1 text-sm md:text-xl">James Bennett</p>
+                                    <p class="text-gray100 ">Toronto, Canada</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="md:w-8/12 m-auto text-center md:mt-24 relative ">
+                <h2 class="font-semibold text-link-900 text-xl md:text-5xl  md:px-10">Subscribe to Our Newsletter for Design Insights</h2>
+                <p class="font-500 text-link-500 text-sm md:text-2xl my-8 pb-24 md:my-16 md:pb-16  md:px-20">Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>
+                <div class="w-full bg-white md:flex justify-between items-center  p-2 absolute -bottom-20 md:-bottom-24" style="box-shadow:  0px 10px 100px 0px rgba(0, 0, 0, 0.14)">
+                    <div class="flex items-center" >
+                       <img src="images/mail.png" alt="" class="w-7">
+                       <p class="text-gray50 ml-3 md:text-2xl">Enter your email address</p>
+                    </div>
+                    <button class="bg-link-900 text-white w-44 md:text-2xl py-3 rounded-s mt-5 md:mt-0 " >Subscribe</button>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <footer>
+        <div class="bg-link-900 w-full grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-20  px-5 py-40 md:px-106px">
+            <div >
+                <img src="images/logo2.png " alt="" class="w-8/12">
+                <p class="my-10 text-gray30">VivaDecor your premier destination for luxury and modern interior design</p>
+                <div class="flex justify-between  w-3/5">
+                    <img src="images/facebook.png" alt="" class="w-1/5">
+                    <img src="images/twitter.png" alt="" class="w-1/5">
+                    <img src="images/insta.png" alt="" class="w-1/5">
+                    <img src="images/linkedin.png" alt="" class="w-1/5">
+                </div>
+            </div>
+            <ul>
+                <li class="text-2xl text-white pb-4 font-semibold">Our Services</li>
+                <li class="text-xl text-gray30 py-3 font-500">Interior design</li>
+                <li class="text-xl text-gray30 py-3 font-500">Outdoor design</li>
+                <li class="text-xl text-gray30 py-3 font-500">Lightning design</li>
+                <li class="text-xl text-gray30 py-3 font-500">Office design</li>
+            </ul>
+            <ul>
+                <li class="text-2xl text-white pb-4 font-semibold">Our Services</li>
+                <li class="text-xl text-gray30 py-3 font-500">Reviews</li>
+                <li class="text-xl text-gray30 py-3 font-500">Careers</li>
+                <li class="text-xl text-gray30 py-3 font-500">Pricing</li>
+                <li class="text-xl text-gray30 py-3 font-500">Press inquires</li>
+            </ul>
+            <ul>
+                <li class="text-2xl text-white pb-4 font-semibold">Our Services</li>
+                <li class="text-xl text-gray30 py-3 font-500">info@vivadecor.com</li>
+                <li class="text-xl text-gray30 py-3 font-500">Design Avenue Cityville, CA 90210 United States</li>
+               
+            </ul>
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
